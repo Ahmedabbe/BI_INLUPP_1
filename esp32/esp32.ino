@@ -2,7 +2,6 @@
 #include <Esp32MQTTClient.h>
 #include <DHT.h>
 #include <ArduinoJson.h>
-#include "time.h"
 
 #define DIFF 0.5
 float prevTemp = 0; // for saving last uploaded temp
